@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: 3D Widget Example
+Bundle-SymbolicName: org.yamcs.studio.threedwidget;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.csstudio.opibuilder,
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.gef,
+ org.eclipse.ui.console,
+ org.eclipse.ui.ide,
+ org.csstudio.simplepv,
+ org.diirt,
+ org.yamcs.studio.p2deps.lwjgl
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.yamcs.studio.customwidget
+Import-Package: org.csstudio.opibuilder.widgets.figures

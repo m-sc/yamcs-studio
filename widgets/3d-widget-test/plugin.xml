@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.csstudio.opibuilder.widget">
+      <widget
+            typeId="org.yamcs.studio.threedwidget.My3DWidget"
+            category="Robotics"
+            name="3D Widget"
+            description="A 3d widget example."
+            icon="icons/My3DWidget.png"
+            editpart_class="org.yamcs.studio.threedwidget.My3DEditpart"
+            model_class="org.yamcs.studio.threedwidget.My3DModel">
+      </widget>
+   </extension>
+</plugin>
