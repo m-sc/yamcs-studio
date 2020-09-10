@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.csstudio.opibuilder.widget">
+      <widget
+            typeId="org.yamcs.studio.widgets.videoFeed"
+            category="Robotics"
+            name="Video Feed"
+            description="Stream video feed from Yamcs."
+            icon="icons/vlc.png"
+            editpart_class="org.yamcs.studio.widgets.VideoFeedEditpart"
+            model_class="org.yamcs.studio.widgets.VideoFeedModel">
+      </widget>
+   </extension>
+</plugin>
